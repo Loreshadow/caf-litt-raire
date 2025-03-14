@@ -1,0 +1,152 @@
+/* CSS rules */
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto/static/Roboto-Bold.ttf);
+}
+/* CSS global */
+body {
+    font-family: "Roboto";
+    margin: 0;
+    background-color: rgb(251, 234, 239);
+}
+
+h1 {
+    font-family: "Roboto Bold";    
+}
+
+h2 {
+    font-family: "Roboto Bold";
+    color: rgb(255, 176, 202);
+    padding: 20px;
+}
+
+h3 {
+    font-family: "Roboto Bold";
+    padding: 20px;
+}
+
+p {
+    padding: 15px;
+    margin: 5px;
+}
+
+header {
+    background-color: rgb(255, 176, 202);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.cta {
+    text-decoration: none;
+    background-color: rgb(255, 176, 202);
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+
+.cta--primary {
+    display: inline-block;
+    margin-left: 20px; 
+    padding: 10px;
+}
+
+
+ul, li {
+    list-style: none;
+    padding: 5px;
+}
+
+li {
+    background-color: rgb(252, 224, 233);
+}
+
+.img--bookstore {
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+/* section presentation  */
+#presentation {
+    display: flex;
+    align-items: center;
+}
+
+/* section recommandations */
+
+.recommandation > ul > li{
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.516);
+}
+
+/* section event  */
+.events {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+.event {
+    background-color: rgb(252, 224, 233);
+    border-radius: 20px;
+    box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.516);
+}
+
+/* section reservation */
+ #reservations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.reservation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 40px;
+}
+.form-item, .form-submit {
+    width: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.submit--primary {
+    background-color: rgb(255, 176, 202);
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 45%;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.516);
+}
+
+/* footer  */
+.copy {
+    padding: 0;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
